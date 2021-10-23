@@ -1,0 +1,52 @@
+.background {
+  margin-bottom: 20px;
+  background: url("IMG_1305.JPG") no-repeat scroll center 0/cover;
+  width: 100%
+}
+
+.content {
+  max-width: 10000px;
+  margin-bottom: 94px;
+}
+
+.content h2 {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 3500;
+  color: #ffff00;
+}
+
+.image{
+  max-width: 98%;
+}
+
+.image-container{
+  max-width: 98%;
+  margin-top: 150px;
+}
+
+.image1{
+  float: right;
+}
+
+.image2{
+  float: left;
+}
+
+.size{
+  font-size: 22px
+}
+
+div{
+  margin-top: 80px;
+}
+
+img{
+  max-width: 200px;
+}
+
+p{
+  max-width: 200px;
+  margin-left: 50px;
+  display: inline;
+}
