@@ -1,22 +1,16 @@
-<script>
-  $(document).ready(function() {
-  	$("p").addClass("animated bounce");
-    $(".image1").addClass("animated shake");
-    $(".image2").addClass("animated shake");
-  });
-</script>
-
 <html>
 	<head>
 		<meta charset="utf-8">
 		<title>407261233</title>
 		<link rel="stylesheet" href="style.css">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 	</head>
 
 	<body class="background">
 		<div>
 			<div class="content" align="center">
-				<h2><b>手作分享</b></h2>
+				<h1><b>手作分享</b></h1>
+				<button>Shake</button>
 			</div>
 		</div>
 
@@ -36,5 +30,14 @@
 			<img class="image2" style="width:28%; height: 200px;" align="center" src=IMG_6450.png>
 			<p class="size" font face="DFKai-sb" style="color: #191970;" align="left">雨後的世界: 滴滴答答的雨不停的下，寧靜中沒有節奏的旋律，讓人心煩。但我總期待著雨天，放晴後的世界裡，清新的空氣、涼爽的風和欣欣向榮的大地，彷彿重生一般，帶來了繼續努力的動力。</p>
 		</div>
+
+		<script>
+  			$(document).ready(function() {
+  			$("p").addClass("animated bounce");
+    		$(".image1").addClass("animated shake");
+    		$(".image2").addClass("animated shake");
+    		$("button").addClass("animated bounce");
+  		});
+		</script>
 	</body>
 </html>
