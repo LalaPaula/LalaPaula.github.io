@@ -16,6 +16,12 @@
   color: #ffff00;
 }
 
+.Button{
+  margin-left: 80px;
+  padding: 20px 50px;
+  float: left;
+}
+
 .image{
   max-width: 98%;
 }
@@ -34,7 +40,9 @@
 }
 
 .size{
-  font-size: 22px
+  size: 800px 80px;
+  font-size: 24px;
+  float: center;
 }
 
 div{
