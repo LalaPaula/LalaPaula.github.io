@@ -1,43 +1,44 @@
 <html>
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 	<head>
 		<meta charset="utf-8">
 		<title>407261233</title>
 		<link rel="stylesheet" href="style.css">
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 	</head>
 
 	<body class="background">
 		<div>
 			<div class="content" align="center">
 				<h1><b>手作分享</b></h1>
-				<button>Shake</button>
+				<!--button class="Button">Shake</button-->
 			</div>
 		</div>
 
 		<div class="image" align="center">
 			<img class="image1" style="width:25%; height: 200px;" src=22A178D5-D33E-4A51-B0C0-5D5F0E59CAE1.png>
-			<p class="size" font face="DFKai-sb" style="color: #ffd700;" align="right" >日月星辰: 月升日落、星辰迴轉。從白天到黑夜、春天到冬天，不斷的在變化。漸漸黯淡的，終有重新發光的時候，即使不再能有同樣的亮度，卻也會是不同的光彩。</p>
+			<p class="size" font face="DFKai-sb" style="color: #ffd700;">日月星辰: 月升日落、星辰迴轉。從白天到黑夜、春天到冬天，不斷的在變化。漸漸黯淡的，終有重新發光的時候，即使不再能有同樣的亮度，卻也會是不同的光彩。</p>
 		</div>
 		<div class="image-container" align="center">
 			<img class="image2" style="width:28%; height: 200px;" src=IMG_6445.png>
-			<p class="size" font face="DFKai-sb" style="color: #c71585;" align="left">小時候的記憶: 一點一點在嘴裡迴盪的甜味，雖然膩的讓人難受，但卻又忍不住一顆接著一顆</p>
+			<p class="size" font face="DFKai-sb" style="color: #c71585;">小時候的記憶: 一點一點在嘴裡迴盪的甜味，雖然膩的讓人難受，但卻又忍不住一顆接著一顆</p>
 		</div>
 		<div class="image-container" align="center">
 			<img class="image1" style="width:25%; height: 200px;" src=C39DEEF7-3FC8-43E3-AE52-6E44E6CB3F99.png>
-			<p class="size" font face="DFKai-sb" style="color: #8b0000;" align="right">馬戲團樂曲: 小丑滑稽的樣子、走鋼索搖晃的身軀、訓獸師與野獸的互動，所有的難過、痛苦都掩藏在樂曲後，只為了博君一笑。</p>
+			<p class="size" font face="DFKai-sb" style="color: #8b0000;">馬戲團樂曲: 小丑滑稽的樣子、走鋼索搖晃的身軀、訓獸師與野獸的互動，所有的難過、痛苦都掩藏在樂曲後，只為了博君一笑。</p>
 		</div>
 		<div class="image-container" align="center">
-			<img class="image2" style="width:28%; height: 200px;" align="center" src=IMG_6450.png>
-			<p class="size" font face="DFKai-sb" style="color: #191970;" align="left">雨後的世界: 滴滴答答的雨不停的下，寧靜中沒有節奏的旋律，讓人心煩。但我總期待著雨天，放晴後的世界裡，清新的空氣、涼爽的風和欣欣向榮的大地，彷彿重生一般，帶來了繼續努力的動力。</p>
+			<img class="image2" style="width:28%; height: 200px;" src=IMG_6450.png>
+			<p class="size" font face="DFKai-sb" style="color: #191970;">雨後的世界: 滴滴答答的雨不停的下，寧靜中沒有節奏的旋律，讓人心煩。但我總期待著雨天，放晴後的世界裡，清新的空氣、涼爽的風和欣欣向榮的大地，彷彿重生一般，帶來了繼續努力的動力。</p>
 		</div>
 
 		<script>
-  			$(document).ready(function() {
-  			$("p").addClass("animated bounce");
-    		$(".image1").addClass("animated shake");
-    		$(".image2").addClass("animated shake");
-    		$("button").addClass("animated bounce");
-  		});
+			 $(document).ready(function() {
+  				$(".size").effect("bounce", 800);
+    			$(".image1").effect("shake", 800);
+    			$(".image2").effect("shake", 800);
+    			$("button").effect("bounce", 800);
+  			});
 		</script>
 	</body>
 </html>
